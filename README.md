@@ -27,9 +27,9 @@ To collect raw data from web pages and convert it into a usable dataset for furt
 
 ```
 web-scraping-project/
-│── scraper.py          # Main Python script
-│── output.csv          # Scraped dataset
-│── README.md           # Project documentation
+│── companies_scraping.py          # Main Python script
+│── Companies.csv                  # Scraped dataset
+│── README.md                      # Project documentation
 ```
 
 ## ▶️ How to Run
@@ -37,7 +37,7 @@ web-scraping-project/
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/web-scraping-project.git
+   git clone https://github.com/yourusername/python-web-scraping.git
    ```
 2. Install required libraries:
 
@@ -47,12 +47,12 @@ web-scraping-project/
 3. Run the script:
 
    ```
-   python scraper.py
+   python companies_scraping.py
    ```
 
 ## 📊 Output
 
-* The script generates a CSV file (`output.csv`) containing the scraped data.
+* The script generates a CSV file (`Companies.csv`) containing the scraped data.
 
 ## ⚠️ Disclaimer
 
